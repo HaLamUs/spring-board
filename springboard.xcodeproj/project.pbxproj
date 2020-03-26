@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8474B70242CD61B00714733 /* SpringBoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8474B6F242CD61B00714733 /* SpringBoardCollectionViewCell.swift */; };
+		B8474B72242CD6A600714733 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8474B71242CD6A600714733 /* UIViewExtension.swift */; };
+		B8474B74242CD6C700714733 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8474B73242CD6C700714733 /* UIImageViewExtension.swift */; };
+		B8474B76242CD7C600714733 /* DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8474B75242CD7C600714733 /* DownloadImage.swift */; };
 		B89630A0242CB99C00F933A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896309F242CB99C00F933A3 /* AppDelegate.swift */; };
 		B89630A2242CB99C00F933A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89630A1242CB99C00F933A3 /* SceneDelegate.swift */; };
 		B89630A7242CB99C00F933A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89630A5242CB99C00F933A3 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8474B6F242CD61B00714733 /* SpringBoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringBoardCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8474B71242CD6A600714733 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B8474B73242CD6C700714733 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		B8474B75242CD7C600714733 /* DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImage.swift; sourceTree = "<group>"; };
 		B896309C242CB99C00F933A3 /* springboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = springboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B896309F242CB99C00F933A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B89630A1242CB99C00F933A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 				B89630AA242CB99D00F933A3 /* LaunchScreen.storyboard */,
 				B89630AD242CB99D00F933A3 /* Info.plist */,
 				B89630B3242CBA5B00F933A3 /* SpringBoardViewController.swift */,
+				B8474B71242CD6A600714733 /* UIViewExtension.swift */,
+				B8474B73242CD6C700714733 /* UIImageViewExtension.swift */,
+				B8474B6F242CD61B00714733 /* SpringBoardCollectionViewCell.swift */,
+				B8474B75242CD7C600714733 /* DownloadImage.swift */,
 			);
 			path = springboard;
 			sourceTree = "<group>";
@@ -138,6 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8474B72242CD6A600714733 /* UIViewExtension.swift in Sources */,
+				B8474B70242CD61B00714733 /* SpringBoardCollectionViewCell.swift in Sources */,
+				B8474B76242CD7C600714733 /* DownloadImage.swift in Sources */,
+				B8474B74242CD6C700714733 /* UIImageViewExtension.swift in Sources */,
 				B89630A0242CB99C00F933A3 /* AppDelegate.swift in Sources */,
 				B89630A2242CB99C00F933A3 /* SceneDelegate.swift in Sources */,
 				B89630B4242CBA5B00F933A3 /* SpringBoardViewController.swift in Sources */,
