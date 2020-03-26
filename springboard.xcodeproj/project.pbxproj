@@ -45,6 +45,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8474B7D242CE1FF00714733 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B896309F242CB99C00F933A3 /* AppDelegate.swift */,
+				B89630A1242CB99C00F933A3 /* SceneDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		B8474B7E242CE21400714733 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B89630A5242CB99C00F933A3 /* Main.storyboard */,
+				B89630AA242CB99D00F933A3 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B8474B80242CE22D00714733 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B89630AD242CB99D00F933A3 /* Info.plist */,
+				B89630A8242CB99D00F933A3 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		B8474B81242CE23600714733 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8474B73242CD6C700714733 /* UIImageViewExtension.swift */,
+				B8474B71242CD6A600714733 /* UIViewExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B8474B82242CE23B00714733 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B8474B75242CD7C600714733 /* DownloadImage.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		B8474B83242CE30700714733 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B89630B3242CBA5B00F933A3 /* SpringBoardViewController.swift */,
+				B8474B6F242CD61B00714733 /* SpringBoardCollectionViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		B8963093242CB99C00F933A3 = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +117,12 @@
 		B896309E242CB99C00F933A3 /* springboard */ = {
 			isa = PBXGroup;
 			children = (
-				B896309F242CB99C00F933A3 /* AppDelegate.swift */,
-				B89630A1242CB99C00F933A3 /* SceneDelegate.swift */,
-				B89630A5242CB99C00F933A3 /* Main.storyboard */,
-				B89630A8242CB99D00F933A3 /* Assets.xcassets */,
-				B89630AA242CB99D00F933A3 /* LaunchScreen.storyboard */,
-				B89630AD242CB99D00F933A3 /* Info.plist */,
-				B89630B3242CBA5B00F933A3 /* SpringBoardViewController.swift */,
-				B8474B71242CD6A600714733 /* UIViewExtension.swift */,
-				B8474B73242CD6C700714733 /* UIImageViewExtension.swift */,
-				B8474B6F242CD61B00714733 /* SpringBoardCollectionViewCell.swift */,
-				B8474B75242CD7C600714733 /* DownloadImage.swift */,
+				B8474B7D242CE1FF00714733 /* Application */,
+				B8474B83242CE30700714733 /* Controllers */,
+				B8474B7E242CE21400714733 /* Views */,
+				B8474B80242CE22D00714733 /* Assets */,
+				B8474B81242CE23600714733 /* Extensions */,
+				B8474B82242CE23B00714733 /* Helper */,
 			);
 			path = springboard;
 			sourceTree = "<group>";
