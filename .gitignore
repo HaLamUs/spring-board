@@ -1,0 +1,28 @@
+## Build generated
+springboard/build/
+springboard/DerivedData
+springboard/build.xcarchive
+
+## Various settings
+springboard/*.pbxuser
+springboard/!default.pbxuser
+springboard/*.mode1v3
+springboard/!default.mode1v3
+springboard/*.mode2v3
+springboard/!default.mode2v3
+springboard/*.perspectivev3
+springboard/!default.perspectivev3
+springboard/xcuserdata
+
+## Other
+springboard/*.xccheckout
+springboard/*.moved-aside
+springboard/*.xcuserstate
+springboard/*.xcscmblueprint
+
+## Obj-C/Swift specific
+springboard/*.hmap
+springboard/*.ipa
+
+springboard.xcodeproj/project.xcworkspace/
+springboard.xcodeproj/xcuserdata/
