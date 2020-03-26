@@ -33,6 +33,7 @@ class SpringBoardViewController: UIViewController {
     let numberOfRows: CGFloat = 7
     let numberOfColumns: CGFloat = 10
     let imageSpacing: CGFloat = 2
+    let radiusValue: CGFloat = 7
     
     // MARK: IBActions
     
@@ -124,7 +125,7 @@ extension SpringBoardViewController: UICollectionViewDelegate, UICollectionViewD
         } else {
             cell.startLoading()
         }
-        cell.roundCorners(radius: 7)
+        cell.roundCorners(radiusValue)
         
         return cell
     }
